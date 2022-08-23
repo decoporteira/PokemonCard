@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+  <title>Pokémon Card</title>
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <img class="pokebola" src="src/images/pokebola.png" alt="Pokebola">
+    <h1 class="titulo" >Pokédex</h1>
+  </header>
+
+  <main class="pokemon-slider">
+    <button class="btn-seta left" id="btn-voltar">
+      <img  src="src/images/seta.png" alt="Seta voltar">
+    </button>
+    <ul class="lista-pokemons">
+      <li class="cartao selecionado fundo-1">
+        <div class="info">
+          <h2 class="nome">Pikachu</h2>
+          <p class="vida">HP 300</p>
+        </div>
+        <div class="container-image">
+          <img  class="imagem-pokemon" src="src/images/pikachu.png" alt="Pikachu">
+        </div>
+        <div class="descricao">
+          <h3 class="titulo">Description</h3>
+          <p class="texto">Pikachu, the Mouse Pokémon. An Electric type. Pikachu have pouches on their cheeks that can store electricity, which they release if threatened. Male and female Pikachu have differently shaped tails.</p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-2">
+        <div class="info">
+          <h2 class="nome">Charizard</h2>
+          <p class="vida">HP 500</p>
+        </div>
+        <div class="container-image">
+          <img  class="imagem-pokemon" src="src/images/charizard.png" alt="Charizard">
+        </div>
+        <div class="descricao">
+          <h3 class="titulo">Description</h3>
+          <p class="texto">Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.</p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3"> 
+        <div class="info">
+          <h2 class="nome">Mewtwo</h2>
+          <p class="vida">HP 600</p>
+        </div>
+        <div class="container-image">
+          <img  class="imagem-pokemon" src="src/images/mewtwo.png" alt="Mewtwo">
+        </div>
+        <div class="descricao">
+          <h3 class="titulo">Description</h3>
+          <p class="texto">A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.</p>
+        </div>
+      </li>
+    </ul>
+
+  <button class="btn-seta" id="btn-avancar">
+      <img src="src/images/seta.png" alt="Seta avançar">
+    </button>
+
+  </main>
+  <script src="src/js/index.js"></script>
+</body>
+</html>
